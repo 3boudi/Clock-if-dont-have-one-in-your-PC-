@@ -1,0 +1,35 @@
+*{
+    font-family:'Roboto Mono',monospace;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color:aliceblue;
+    background:linear-gradient(140deg ,red , gold);
+
+}
+.clock{
+    font-size:60px;
+    background-color: brown;
+    padding: 40px 60px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 5px orangered;
+    margin-bottom: 20px;
+    margin: 20px;
+}   
+.switcher{
+    font-size: 1rem;
+    font: 20px solid;
+    padding:10px 20px ;
+    border: none ;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px orangered;
+
+}
